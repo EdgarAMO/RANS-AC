@@ -1,0 +1,18 @@
+#!/bin/sh
+
+cd ${0%/*} || exit 1
+
+. $WM_PROJECT_DIR/bin/tools/RunFunctions
+
+rm -rf log.blockMesh
+rm -rf log.actuatorCylinderSimpleFoam
+
+cd system
+python3 setter.py
+
+cd ..
+runApplication blockMesh
+
+runApplication actuatorCylinderSimpleFoam
+
+
