@@ -1,0 +1,41 @@
+numberOfCylinders
+{
+    noc     3;
+}
+
+general
+{
+    NACA        18;
+    BPA         0.0;
+    NB          3;
+    CH          0.50;
+    R           5.00;
+    RPM         45.00;
+    LAMBDA      3.00;
+    U0          7.85;
+}
+
+actuatorCylinder0
+{
+    center      ( 15.00   0.00   0.00);
+    intRadius   4.50;
+    extRadius   5.50;
+    spin        1;
+}
+
+actuatorCylinder1
+{
+    center      ( -7.50  12.99   0.00);
+    intRadius   4.50;
+    extRadius   5.50;
+    spin        1;
+}
+
+actuatorCylinder2
+{
+    center      ( -7.50 -12.99   0.00);
+    intRadius   4.50;
+    extRadius   5.50;
+    spin        0;
+}
+

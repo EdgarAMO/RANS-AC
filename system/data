@@ -1,0 +1,10 @@
+NACA		18;
+BPA 		0.0;
+NB			3;
+CH			0.5;
+R			5;
+RPM			45.0;
+LAMBDA		3;
+U0			7.85;
+RI			4.5;
+RO			5.5;
